@@ -26,6 +26,7 @@ function gotPoses(results){
 }
 
 function draw(){
+    document.getElementById("widthAndHeightSpan").innerHTML = sizeOfDText;
     background("goldenrod")
     textSize(sizeOfDText);
     fill("orange");
